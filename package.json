@@ -1,0 +1,35 @@
+{
+  "name": "facesignify-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^7.11.2",
+    "@hapi/cookie": "^12.0.1",
+    "@hapi/hapi": "^21.3.9",
+    "@hapi/inert": "^7.1.0",
+    "@hapi/joi": "^17.1.1",
+    "@hapi/jwt": "^3.2.0",
+    "@hapi/vision": "^7.0.3",
+    "@tensorflow/tfjs-node": "^4.20.0",
+    "bcrypt": "^5.1.1",
+    "canvas": "^2.11.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.1.1",
+    "jpeg-js": "^0.4.4",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.33.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
